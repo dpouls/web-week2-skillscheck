@@ -1,0 +1,106 @@
+body {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header {
+    height: 60px;
+    width: 1000px;
+    box-sizing: border-box;
+    background-color: rgb(95, 94, 94);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+}
+#company{
+    width: 60%;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.topRight{
+    margin-left: 30px;
+    font-size: large;
+}
+
+#black-box {
+    height: 360px;
+    width: 1000px;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 240, 90);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#green-trio-container {
+    height: 310px;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.green-trio {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(158, 250, 207);
+    border-radius: 20px;
+}
+#orange-container{
+    height: 300px;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 19px;
+}
+
+.orange-duo{
+    height: 250px;
+    width: 440px;
+    background-color: rgb(251, 202, 111);
+}
+
+#p-and-img-container {
+    height: 250px;
+    width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 100px;
+}
+.p-img {
+    /* width:300px; */
+
+}
+
+#elephant {
+    height: 170px;
+    width: auto;
+}
+#paragraph {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#footer {
+    background-color: rgb(62, 62, 105);
+    height: 100px;
+    width: 1000px;
+}
